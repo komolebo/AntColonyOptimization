@@ -1,15 +1,15 @@
 #include "Functions.h"
-#include <ctime>					// for randomize
+#include <ctime>			// for randomize
 
 using namespace std;
 
 void process(int from, int to);		// forward declaration
 
-string Setting::FILENAME;			// variable declaration from Funcions.h
+string Setting::FILENAME;		// variable declaration from Funcions.h
 
 
 int main() {
-	srand((int)time(0));			// randomize
+	srand((int)time(0));		// randomize
 
 	Setting::FILENAME = "data/yuzSHP55.aco";
 	process(1, 31);
@@ -92,7 +92,7 @@ void process(int from, int to)
 					solution = new Solution(ant.way);
 					output_best(matrix, solution);
 				}
-				else {									// compare with existing solution
+				else {							// compare with existing solution
 					if (count_cost(matrix, &ant.way) > count_cost(matrix, solution)) {
 						*solution = ant.way;
 						output_best(matrix, solution);
