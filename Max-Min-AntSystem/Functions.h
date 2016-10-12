@@ -5,7 +5,7 @@
 using namespace std;
 
 namespace Setting {
-	extern string FILENAME;						// Set in Main.cpp
+	extern string FILENAME;				// Set in Main.cpp
 	const int ANTS_NUM = 100;
 	const int STEPS = 500;
 	const double INIT_PHEROMONES = 1.0;	
