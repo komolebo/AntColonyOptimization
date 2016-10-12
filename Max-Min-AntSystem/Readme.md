@@ -1,1 +1,0 @@
-Search shortest way between two nodes by Max-Min Ant System algorithm
