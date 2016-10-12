@@ -13,15 +13,12 @@ int main() {
 
 	Setting::FILENAME = "data/yuzSHP55.aco";
 	process(1, 31);
-	getchar();
 	
 	Setting::FILENAME = "data/yuzSHP95.aco";
 	process(0, 94);
-	getchar();
 	
 	Setting::FILENAME = "data/yuzSHP155.aco";
 	process(0, 154);
-	getchar();
 
 	return 0;
 }
